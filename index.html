@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Parcial</title>
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">
+      <h1>DIGITAL AGENCY</h1>
+    </div>
+    <button class="mobile-menu-button">&#9776;</button>
+    <nav class="nav-links">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Testimonials</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+  
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Building digital products, brands & experience</h1>
+      <p>Digital Agency is your online team mangement tool that <br> easy and prompt</p>
+      <a href="#" class="btn">Contact Us</a>
+    </div>
+    <img src="./img/business-deal-1.png" alt="Hero Image">
+  </section>
+  
+  <section class="companies">
+    
+    <div class="company-logos">
+      <img src="./img/Company logo.png" alt="Company 1">
+      <img src="./img/Company logo-1.png" alt="Company 2">
+      <img src="./img/Company logo-2.png" alt="Company 3">
+      <img src="./img/Company logo-3.png" alt="Company 4">
+    </div>
+  </section>
+  
+  <section class="branding">
+    <img src="./img/designer-team-working-on-creative-design.png" alt="Branding Image">
+    <div class="branding-text">
+      <h2>Branding & Design system</h2>
+      <p>Commonly used in the graphic, print & publishing <br>
+        industris for previewing visual layout and <br>
+        mockups</p>
+    </div>
+  </section>
+  
+  <section class="custom">
+    
+    <div class="custom-text">
+      <h2>Custome & Plugin <br>
+        Development</h2>
+      <p>Commonly used in the graphic, print & publishing <br>
+        industris for previewing visual layout and <br>
+        mockups</p>
+    </div>
+    <img src="./img/businessman-analyzing-data.png" alt="Custom Image">
+  </section>
+  
+  <section class="contact">
+    <div class="fondo">
+    <img src="./img/customer-support.png" alt="Contact Image">
+    <div class="contact-text">
+      <h2>Be a part of the<br>
+        next big thing</h2>
+      <p>We work with Brans, Startups, to SMEs.<br> 
+        Colaborate for more impact and growt</p>
+      <a href="#" class="btn">Contact Us</a>
+    </div>
+  </div>
+  </section>
+  
+  <footer class="footer">
+    <div class="footer-column">
+      <h2>Digital Agency</h2>
+      <p>Building digital products, brands & experiences.</p>
+    </div>
+    <div class="footer-column">
+      <h2>Resources</h2>
+      <p>Guides</p>
+      <p>Blog</p>
+      <p>Customer Stories</p>
+      <p>Glossary</p>
+    </div>
+    <div class="footer-column">
+      <h2>Company</h2>
+      <p>About Us</p>
+      <p>Careers</p>
+      <p>Partners</p>
+      <p>Contact Us</p>
+    </div>
+    <div class="footer-column">
+      <h2>Social Media</h2>
+      <p>LinkedIn</p>
+      <p>Facebook</p>
+      <p>Instagram</p>
+      <p>Twitter</p>
+    </div>
+  </footer>
+
+  <script>
+    const mobileMenuButton = document.querySelector('.mobile-menu-button');
+    const navLinks = document.querySelector('.nav-links');
+  
+    mobileMenuButton.addEventListener('click', () => {
+      navLinks.classList.toggle('show');
+    });
+  </script>
+</body>
+</html>

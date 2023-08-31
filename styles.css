@@ -1,0 +1,483 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+
+/* Reset some default styles */
+body, h1, h2, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(184,172,172);
+  padding: 0px;
+  
+}
+.mobile-menu-button {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 24px;
+  color: #147712;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.logo h1{
+    color: #147712;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    padding: 20px;
+    padding-left: 60px;
+
+}
+/* Navbar styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: rgb(184,172,172);
+  color: #147712;
+  padding-right: 60px;
+  
+
+  
+  
+}
+
+.nav-links a {
+    text-decoration: none;
+    margin-right: 20px;
+    color: #147712;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27.5px; /* 152.778% */
+    text-transform: lowercase;
+  
+}
+
+/* Hero section styles */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 20px;
+  background-color: rgb(184,172,172);
+}
+
+.hero-content {
+  flex: 1;
+  padding-left: 60px;
+}
+
+.hero h1 {
+  font-size: 64px;
+  margin-bottom: 20px;
+  color: #147712;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 64px */
+  text-transform: capitalize;
+}
+
+.hero p {
+    color: #147712;
+    /* Body Text */
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27.5px; /* 152.778% */
+    text-transform: capitalize;
+    padding-bottom: 45px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #8EADD5;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  
+  
+  color: #FFF;
+text-align: center;
+font-family: 'Inter', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 27.5px; /* 171.875% */
+text-transform: uppercase;
+}
+
+.hero img{
+    width: 400px;
+height: 400px;
+flex-shrink: 0;
+padding-right: 30px;
+
+}
+
+/* Companies section styles */
+.companies {
+    
+  margin: 0 auto;
+  width: 900px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 915px;
+  height: 86px;
+  border-radius: 8px;
+  background-color: #65D7B7;
+  
+  
+  
+
+}
+
+.company-logos img {
+  
+  margin: 0 15px;
+  
+}
+
+/* Branding section styles */
+.branding {
+    padding-left: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 20px;
+  background-color: rgb(184,172,172);
+}
+
+.branding-text { 
+  flex: 1;
+  padding: 0 20px;
+
+}
+
+.branding h2{
+    color: #147712;
+    font-family: 'Inter', sans-serif;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 100%; /* 48px */
+text-transform: capitalize;
+padding-bottom: 26px;
+}
+
+.branding p {
+    color: #147712;
+    font-family: 'Inter', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 27.5px; /* 171.875% */
+text-transform: capitalize;
+}
+
+.branding img {
+    padding-right: 179px;
+    padding-left: 60px;
+}
+
+/* Custom section styles */
+.custom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  padding-left: 60px;
+}
+
+.custom-text {
+    
+  flex: 1;
+  padding: 0 20px;
+}
+
+.custom h2{
+    color: #147712;
+    font-family: 'Inter', sans-serif;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 100%; /* 48px */
+text-transform: capitalize;
+padding-bottom: 26px;
+}
+
+.custom p {
+    color: #147712;
+    font-family: 'Inter', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 27.5px; /* 171.875% */
+text-transform: capitalize;
+}
+
+.custom img {
+  
+ padding-right: 60px;
+}
+
+/* Contact section styles */
+.contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  background-color: rgb(184,172,172);
+  padding-bottom: 30px;
+}
+
+.fondo {
+  background-color: #65D7B7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 60px;
+  margin: 0 auto;
+  width: 1065px;
+  border-radius: 20px;
+  
+}
+
+.contact img{
+  padding-left: 75px;
+}
+.contact-text {
+  flex: 1;
+  padding: 0 20px;
+  padding-left: 100px;
+}
+
+.contact h2{
+  color: #147712;
+  font-family: 'Inter', sans-serif;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 100%; /* 48px */
+text-transform: capitalize;
+padding-bottom: 26px;
+}
+
+.contact p {
+  color: #147712;
+  font-family: 'Inter', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 27.5px; /* 171.875% */
+text-transform: capitalize;
+padding-bottom: 33px;
+}
+
+.footer {
+  
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #65D7B7;
+  
+}
+
+.footer-column {
+  justify-items: center;
+  flex: 1;
+  padding-left: 60px;
+  
+}
+
+.footer-column h2 {
+  color: #147712;
+  font-family: 'Inter', sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 27.5px; /* 152.778% */
+text-transform: capitalize;
+}
+
+.footer-column p {
+  margin: 20px 0px;
+  color: #147712;
+
+/* Span Text */
+font-family: 'Inter', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 100%; /* 16px */
+text-transform: capitalize;
+}
+
+/*-----------------------------------------*/
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  /* Navbar adjustments */
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 20px;
+  }
+
+  .nav-links {
+    margin-top: 10px;
+  }
+
+  .logo h1 {
+    padding-left: 20px;
+  }
+
+  /* Hero section adjustments */
+  .hero {
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+  }
+
+  .hero-content {
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .hero img {
+    width: 80%;
+    padding-right: 0;
+  }
+
+  /* Companies section adjustments */
+  .companies {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+  }
+
+  .company-logos img {
+    margin: 10px 0;
+  }
+
+  /* Branding section adjustments */
+  .branding {
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+  }
+
+  .branding-text {
+    padding: 20px;
+  }
+
+  .branding img {
+    padding-right: 0;
+    padding-left: 0;
+    width: 80%;
+  }
+
+  /* Custom section adjustments */
+  .custom {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    padding-left: 20px;
+  }
+
+  .custom-text {
+    padding: 20px;
+  }
+
+  .custom img {
+    padding-right: 0;
+    width: 80%;
+  }
+
+  /* Contact section adjustments */
+  .contact {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    padding-bottom: 20px;
+  }
+
+  .fondo {
+    padding-left: 20px;
+    width: 100%;
+  }
+
+  .contact img {
+    padding-left: 0;
+    width: 80%;
+  }
+
+  .contact-text {
+    padding: 20px;
+    padding-left: 0;
+  }
+
+  /* Footer adjustments */
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+  }
+
+  .footer-column {
+    padding: 10px 0;
+    text-align: center;
+  }
+
+  .footer-column h2 {
+    font-size: 24px;
+  }
+
+  .footer-column p {
+    margin: 10px 0;
+    font-size: 16px;
+    font-weight: 300;
+  }
+
+  /* Show mobile menu adjustments */
+  .mobile-menu-button {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    background-color: #fff;
+    top: 70px;
+    left: 0;
+  }
+
+  .nav-links.show {
+    display: flex;
+  }
+
+  .nav-links a {
+    margin: 10px 0;
+  }
+}
